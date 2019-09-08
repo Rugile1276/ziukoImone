@@ -1,0 +1,213 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.welcomeImage {
+  background-image: url("/Users/rugilepetrukauskaite/Downloads/jamar-penny-ZgmGq_eFmUs-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+.aboutText{
+	margin-top: 100px;
+}
+
+.services.welcomeImage{
+	height: 23%;
+}
+
+.services.welcomeImage img{
+	height: 70px;
+}
+
+.services .welcomeMessage{
+	margin-top: 65px;
+}
+
+.opacityContainer {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, .5);
+}
+
+.nav li {
+	margin: 0 10px;
+}
+.navbar-default .navbar-brand, #blue {
+    color: #5296b1;
+   }
+
+.welcomeMessage{
+	z-index: 2;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.aboutSection{
+	text-align: center;
+}
+
+.navbar-brand>img {
+	height: 60px
+}
+
+.welcomeMessage img{
+	height: 250px;
+}
+
+.row {
+	padding: 50px;
+}
+
+h1{
+	margin: 20px 0;
+	color: #5296b1;
+}
+
+hr{	
+	border-top: 1px solid #5296b1;
+}
+
+.services{
+	background-color: #f8f8f8;
+}
+
+#map{
+	margin: 20px 0;
+	height: 400px;
+	width: 	100%;
+	text-align: center;
+}
+
+.social-networks{
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.glyphicon{
+	font-size: 30px;
+	margin: 20px 40px;
+}
+
+.copyright{
+	text-align: center;
+}
+
+.contacts ul{
+	padding: 30px 10px 0 10px;
+	list-style-type: none;
+	font-size: 17px;
+}
+
+.contacts li{
+	padding-bottom: 12px;
+}
+
+.carousel{
+	margin-top: 30px;
+}
+
+
+
+/* about.html */
+
+.about h1 {
+	margin: 80px 0 20px 0;
+}
+
+.form-control {
+	margin: 20px 0;
+}
+
+
+/* gallery.html */
+
+.gallery h1 {
+	margin: 80px 0 20px 0;
+}
+
+.gallery .thumbnail {
+	 width: 100%;
+}
+.gallery img {
+	height: 200px;
+    overflow: hidden;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.tz-gallery .lightbox img {
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/* services */
+
+.servicesHeader {
+	margin: 80px 0 20px 0;
+}
+
+.workList{
+	font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+	.nav li {
+		margin: 0;
+	}
+	.navbar-brand{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-brand{
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 3600px) {
+	.welcomeMessage img {
+	    height: 200px;
+	}
+}
